@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Movie App
 
-## Getting Started
+This project is a movie application built with Next.js. Users can browse and search for movies, view detailed information about movies, and manage their favorite movies.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To set up the project locally, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### `git clone https://github.com/ahmetselimboz/nextjs-movie-app.git`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Clone the repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### `cd nextjs-movie-app`
 
-## Learn More
+Navigate to the project directory.
 
-To learn more about Next.js, take a look at the following resources:
+#### `npm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Install the necessary dependencies.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### `npm run dev`
 
-## Deploy on Vercel
+Start the project.\
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+After starting the application, you can view the project by navigating to `http://localhost:3000` in your browser.
+
+## Features
+
+- **Movie Search:** Users can search for movies using keywords.
+- **Movie Details:** Detailed information about selected movies can be viewed.
+- **Favorite Movies:** Users can manage their favorite movies list.
+
+## Used Packages
+
+The main packages used in this project are:
+
+- `next`
+- `next-themes`
+- `react`
+- `react-dom`
+- `react-icons`
+- `tailwindcss`
+- `fetch API`
+
+
+
+## Used Technologies
+
+The main technologies used in this project are:
+
+- [Next.js](https://nextjs.org/)
+- [Next Theme](https://github.com/pacocoursey/next-themes)
+- [The Movie Database (TMDb) API](https://www.themoviedb.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Screenshot
+
+![Application Screenshot](https://image.ahmetselimboz.com.tr/mybucket/nextjs-movie-app.jpg)
+
+## Contributors
+
+If you would like to contribute to this project, please send a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
