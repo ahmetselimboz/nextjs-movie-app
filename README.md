@@ -58,7 +58,7 @@ The main technologies used in this project are:
 
 ## Screenshot
 
-![Application Screenshot](https://image.ahmetselimboz.com.tr/mybucket/nextjs-movie-app.jpg)
+![Application Screenshot](https://cdn.ahmetselimboz.com/images/nextjs-movie-app.jpg)
 
 ## Contributors
 
